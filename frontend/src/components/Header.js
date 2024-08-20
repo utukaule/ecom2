@@ -9,12 +9,14 @@ const Header = () => {
           <Navbar.Brand href="/">ShopShop</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Link to="/cart">
-                <i className="fas fa-shopping-cart"></i> Cart
+            <Nav className="ms-auto text-white">
+              <Link to="/cart ">
+                <i className="fas fa-shopping-cart text-white"></i> <span className="text-white">
+                Cart</span>
               </Link>
-              <Link to="/login">
-                <i className="fas fa-user"></i> Sign In
+              <Link to="/login" className="ms-3 ">
+                <i className="fas fa-user text-white"></i> <span className="text-white">
+                Sign In</span>
               </Link>
             </Nav>
           </Navbar.Collapse>
